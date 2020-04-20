@@ -5,9 +5,8 @@ public class Task3 {
         int tmp = 0;
         int n =5;
         for (int i = 0; i < n; i++) {
-
             System.out.println(i);
-            if (i == n -2 )
+            if (i == n -3 )
             tmp = i;
 
         }
