@@ -5,11 +5,9 @@ public class Bank {
         long startSum = 100, years = 10;
         double proc = 12;
         for (int i = 0; i < years; i++) {
-            startSum = (int) (startSum * (proc / 100)+startSum);
+            startSum = (int) (startSum * (proc / 100) + startSum);
             System.out.println(startSum);
         }
-
-
 
 
     }
