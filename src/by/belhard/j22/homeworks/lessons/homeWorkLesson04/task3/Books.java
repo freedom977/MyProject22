@@ -11,6 +11,11 @@ public class Books {
         this.kol = kol;
         this.aftor = aftor;
     }
+
+    public Aftor getAftor() {
+        return aftor;
+    }
+
     @Override
     public String toString (){
         return "Название кники " + name + " жанр " + genre +

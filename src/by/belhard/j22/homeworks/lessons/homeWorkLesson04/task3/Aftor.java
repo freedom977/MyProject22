@@ -17,6 +17,7 @@ public class Aftor {
             System.out.println("Возраст не правильный!");
     }
 
+
     @Override
     public String toString (){
         return name + " " + age + " лет";
